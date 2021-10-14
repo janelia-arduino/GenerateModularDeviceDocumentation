@@ -14,3 +14,16 @@
 
 Modular device documentation repository
 
+** Usage
+
+Copy publish.yml into .github/workflows/ directory inside of the modular device
+Arduino repository you want to document.
+
+This will trigger a Github action to checkout the modular device Arduino
+repository and then checkout this repository inside it.
+
+The scripts in this directory will generate the documentation inside a gh-pages
+branch within the modular device Arduino repository.
+
+Setup the modular device Arduino repository Github pages to use the gh-pages
+branch as the source.

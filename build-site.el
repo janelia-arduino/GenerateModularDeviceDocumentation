@@ -27,9 +27,9 @@
       (list
        (list "org-site:main"
              :recursive t
-             :base-directory "./GenerateModularDeviceDocumentation/content"
+             :base-directory "./GenerateModularDeviceDocumentation/source"
              :publishing-function 'org-html-publish-to-html
-             :publishing-directory "./GenerateModularDeviceDocumentation/public"
+             :publishing-directory "./GenerateModularDeviceDocumentation/publish"
              :with-author nil           ;; Don't include author name
              :with-creator t            ;; Include Emacs and Org versions in footer
              :with-toc t                ;; Include a table of contents
