@@ -1,4 +1,4 @@
-#+title: Modular Device Documentation
+#+title: Org Mode Example Site
 
 * API
 
