@@ -1,11 +1,4 @@
-#+title: Org Mode Example Site
+#+TITLE: Modular Device Terminal Documentation
+#+AUTHOR: Peter Polidoro
+#+EMAIL: peter@polidoro.io
 
-* API
-
-** Serial Terminal
-
-[[./terminal.org][Terminal]]
-
-** Python
-
-[[./python.org][python]]

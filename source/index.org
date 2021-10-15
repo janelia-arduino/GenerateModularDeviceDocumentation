@@ -1,4 +1,17 @@
-#+title: Modular Device Documentation
+#+TITLE: Modular Device Documentation
+#+AUTHOR: Peter Polidoro
+#+EMAIL: peter@polidoro.io
+
+#+begin_src python :session :results api :exports results
+
+import json
+
+with open('../../api/api.json','r') as f:
+    data = json.load(f)
+
+api = data['result']
+
+#+end_src
 
 * API
 
