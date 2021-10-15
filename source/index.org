@@ -2,6 +2,18 @@
 #+AUTHOR: Peter Polidoro
 #+EMAIL: peter@polidoro.io
 
+#+begin_src python :session :results output :exports results
+
+import json
+
+with open('../../api/names.json','r') as f:
+    data = json.load(f)
+
+api = data['result']
+print(json.dumps(api,indent=2))
+
+#+end_src
+
 * API
 
 ** Serial Terminal
@@ -11,18 +23,4 @@
 ** Python
 
 [[./python.org][python]]
-
-** Json
-
-#+begin_src python :session :results output :exports results
-
-import json
-
-with open('../../api/api.json','r') as f:
-    data = json.load(f)
-
-api = data['result']
-print(json.dumps(api,indent=2))
-
-#+end_src
 
