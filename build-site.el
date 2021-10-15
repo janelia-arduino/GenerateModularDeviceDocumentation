@@ -18,6 +18,8 @@
  'org-babel-load-languages
  '((python . t)))
 
+(setq org-confirm-babel-evaluate nil)
+
 ;; Load the publishing system
 (require 'ox-publish)
 
