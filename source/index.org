@@ -14,7 +14,7 @@
 
 ** Json
 
-#+begin_src python :results output :exports results
+#+begin_src python :session :results output :exports results
 
 import json
 
