@@ -22,7 +22,7 @@ with open('../../api/api.json','r') as f:
     data = json.load(f)
 
 api = data['result']
-print(json.dumps(api),indent=2)
+print(json.dumps(api,indent=2))
 
 #+end_src
 
