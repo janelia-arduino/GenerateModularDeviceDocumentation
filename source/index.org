@@ -14,7 +14,7 @@
 
 ** Json
 
-#+begin_src python :results output :exports both
+#+begin_src python :results output :exports results
 
 import json
 
@@ -22,7 +22,7 @@ with open('../../api/api.json','r') as f:
     data = json.load(f)
 
 api = data['result']
-print(api)
+print(json.dumps(api),indent=2)
 
 #+end_src
 
