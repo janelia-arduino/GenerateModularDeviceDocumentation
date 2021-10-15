@@ -7,10 +7,8 @@
 import json
 
 with open('../../api/names.json','r') as f:
-    data = json.load(f)
-
-api = data['result']
-print(json.dumps(api,indent=2))
+    api = json.load(f)
+    print(json.dumps(api,indent=2))
 
 #+end_src
 
